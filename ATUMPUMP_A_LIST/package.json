@@ -1,0 +1,16 @@
+{
+  "name": "atumpump-a-list",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Spectator-only autonomous crypto demo trading game with ten NPCs",
+  "type": "module",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "install:game": "node src/cli.js install",
+    "start": "node src/cli.js start",
+    "demo": "node src/cli.js demo",
+    "dashboard": "node src/cli.js dashboard",
+    "status": "node src/cli.js status",
+    "test": "node --test"
+  }
+}
